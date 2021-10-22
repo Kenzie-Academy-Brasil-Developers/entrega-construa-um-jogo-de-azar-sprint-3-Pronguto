@@ -1,0 +1,52 @@
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-color: #f0f1f3;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+}
+.pedra, .papel, .tesoura{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+span{
+    line-height: 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 1px solid lightgrey;
+    width: 80%;
+    border-radius: 50px;
+    background-color: aliceblue;
+    margin-top: 1%;
+}
+
+
+@media (min-width:700px) {
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    span{
+        width: 420px;
+        line-height: 60px;
+        font-size: 1.4rem;
+    }   
+}
+/* @media (min-width:) {
+    
+} */
